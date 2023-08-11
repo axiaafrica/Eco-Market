@@ -11,12 +11,12 @@ import VendorPage from './pages/VendorPage';
 function App() {
   return <div>
     {/* <SignIn/> */}
-    <SignUp/>
+    {/* <SignUp/> */}
     <Home/>
-    <MenFashion/>
-    <MenShirt/>
-    <ProductPage/>
-    <VendorPage/>
+    {/* <MenFashion/> */}
+    {/* <MenShirt/> */}
+    {/* <ProductPage/> */}
+    {/* <VendorPage/> */}
   </div>
   
 }
