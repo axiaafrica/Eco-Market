@@ -4,8 +4,9 @@ import '../assets/style.css'
 const MenFashion = () => {
   return (
     <div>
-      <h2>this page is for <strong>Chika.</strong> write all your html within this div. if you cant use tailwind, use the style.css file in the assets folder. the file is already linked</h2>
-      <p>do not code the navbar and footer. </p>
+      <div className='bg-[#EFF2F6]'>
+          
+      </div>
     </div>
   )
 }
