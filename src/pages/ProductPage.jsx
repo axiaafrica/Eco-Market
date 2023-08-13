@@ -3,7 +3,7 @@ import '../assets/style.css'
 
 const  ProductPage = () => {
   return (
-    <div class="bg-[#EFF2F6]">
+    <div class="bg-[#EFF2F6w]">
       <div class="pt-10 relative ">
         
         <div class=" absolute flex flex-row  items-center  gap-[950px] pl-[50px] top-[100px]">
