@@ -1,7 +1,7 @@
 import React from 'react'
 import '../assets/style.css'
 import Lastpic from '../assets/Gift-images/last-pic.svg'
-
+ v
 const  ProductPage = () => {
   return (
     <div class="bg-[#EFF2F6w]">
