@@ -1,7 +1,12 @@
 import React from 'react'
 import '../assets/style.css'
 import Lastpic from '../assets/Gift-images/last-pic.svg'
- v
+import fashion from '../assets/Gift-images/Frame 259-gc.png'
+import p1 from '../assets/Gift-images/Frame 284-gc.png' 
+import p2 from '../assets/Gift-images/watch-gc.png'
+import p3 from '../assets/Gift-images/Frame 286-gc.png'
+
+
 const  ProductPage = () => {
   return (
     <div class="bg-[#EFF2F6w]">
@@ -19,7 +24,7 @@ const  ProductPage = () => {
 </div>
 <div class="flex flex-row justify-center gap-[20px] px-[125px] items-end pt-[80px]">
     <div class="left-side ">
-        <img src="/img/Frame 259-gc.png" alt="fashion man standing"/>
+        <img src={fashion} alt="fashion man standing"/>
     </div>
     <div class="right-side flex flex-col gap-2">
         <div class="font-[700] text-[43px]">Blue Muscle Fit Long Sleeve Shirt</div>
@@ -48,19 +53,19 @@ const  ProductPage = () => {
     <div class=" flex flex-row items-center justify-center text-[40px] font-[700] pt-[80px]">Styling Ideas</div>
     <div class="flex flex-row justify-between px-[125px] items-end pt-[20px]">
         <div class="flex flex-col gap-3 pb-5">
-            <div><img class="w-[384px]" src="/img/Frame 284-gc.png" alt=""/></div>
+            <div><img class="w-[384px]" src={p1} alt=""/></div>
             <div class=" text-[20px]">Rosie Sun Shoe</div>
             <div class=" text-[20px] font-[600]">N75,500</div>
             <div class=" text-[20px]  text-[#007D6E]">Sold by <span class="underline">Ola</span></div>
         </div>
         <div class="flex flex-col gap-3 pb-5">
-            <div><img class="w-[384px] h-[304px]" src="/img/watch-gc.png" alt=""/></div>
+            <div><img class="w-[384px] h-[304px]" src={p2} alt=""/></div>
             <div class=" text-[20px]">John Torcasio Watch</div>
             <div class=" text-[20px] font-[600]">N175,500</div>
             <div class=" text-[20px]  text-[#007D6E]">Sold by <span class="underline">Ola</span></div>
         </div>
         <div class="flex flex-col gap-3 pb-5">
-            <div><img class="w-[384px]" src="/img/Frame 286-gc.png" alt=""/></div>
+            <div><img class="w-[384px]" src={p3} alt=""/></div>
             <div class=" text-[20px]">Giorgio Trovato Sunglasses</div>
             <div class=" text-[20px] font-[600]">N48,000</div>
             <div class=" text-[20px]  text-[#007D6E]">Sold by <span class="underline">Maddisson</span></div>

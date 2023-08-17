@@ -11,7 +11,7 @@ import VendorPage from './pages/VendorPage';
 function App() {
   return <div>
     
-    {/* <MenFashion/> */}
+    <MenFashion/>
     <ProductPage/>
     
   </div>
