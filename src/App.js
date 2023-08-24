@@ -10,13 +10,8 @@ import VendorPage from './pages/VendorPage';
 
 function App() {
   return <div>
-    {/* <SignIn/> */}
-    <SignUp/>
-    <Home/>
-    <MenFashion/>
-    <MenShirt/>
-    <ProductPage/>
-    <VendorPage/>
+    <SignIn/>
+    <SignUp/> 
   </div>
   
 }
