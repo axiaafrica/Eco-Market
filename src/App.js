@@ -15,7 +15,7 @@ function App() {
     
     {/* <SignIn/> */}
     {/* <SignUp/> */}
-    {/* <Home/> */}
+    <Home/>
     {/* <MenFashion/> */}
     {/* <MenShirt/> */}
     {/* <ProductPage/> */}
