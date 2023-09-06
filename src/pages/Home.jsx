@@ -163,6 +163,7 @@ const Home = () => {
         </div>
     </div>
 
+    
     <div class="bg-white pt-[50px] pb-[20px] px-[30px]">
         <div>
             <img src={Image9} alt=""/>
@@ -188,14 +189,17 @@ const Home = () => {
 
 
 <section class="xl:mt-[50px]">
+
     <h2 class="font-header-1 xl:text-[64px] font-[600] text-center xl:mt-[10px]">Our latest arrivals</h2>
 
     <div class="xl:text-center mt-[10px]">
     <button class="font-header-3 bg-white border solid border-header xl:text-[18px] font-[700] py-[20px] px-[62px] rounded-[10px]">SHOP NOW</button>
+
 </div>
 </section>
 
 <section class="font-header-3 xl:mt-[60px] xl:flex xl:flex-wrap xl:items-center xl:justify-center xl:gap-[30px] 2xl:gap-[50px]">
+
     <div>
         <img src={Image11} alt=""/>
         <div class="flex justify-between mt-[10px]">
@@ -221,6 +225,7 @@ const Home = () => {
             <p class="font-[400] text-header text-[16px] mt-[5px]">Shop now</p>
         </div>
     </div>
+    
 </section>
 
 {/* <!-- FOOTER --> */}
