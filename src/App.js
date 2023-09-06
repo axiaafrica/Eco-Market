@@ -14,6 +14,8 @@ function App() {
     <MenFashion/>
     <ProductPage/>
     
+    <SignIn/>
+    <SignUp/> 
   </div>
   
 }
