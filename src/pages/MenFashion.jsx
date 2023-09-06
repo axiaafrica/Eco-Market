@@ -108,4 +108,4 @@ const MenFashion = () => {
   )
 }
 
-export default MenFashion
+export default MenFashion;

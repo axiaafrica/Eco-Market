@@ -10,4 +10,4 @@ const MenShirt = () => {
   )
 }
 
-export default MenShirt
+export default MenShirt;
