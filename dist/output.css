@@ -591,6 +591,13 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#EFF2F6\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 242 246 / var(--tw-bg-opacity));
 .absolute {
   position: absolute;
 }
