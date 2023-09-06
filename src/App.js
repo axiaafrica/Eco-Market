@@ -6,16 +6,24 @@ import MenShirt from './pages/MenShirt';
 import ProductPage from './pages/ProductPage';
 import MenFashion from './pages/MenFashion';
 import VendorPage from './pages/VendorPage';
+import CartPage from "./pages/CartPage";
+import PaymentPage from "./pages/PaymentPage";
 // comment out every component you are not working on. Example, if you are working on navbar and header, comment out the rest and leave the components you are working on. this will prevent you from having to see the codes in them while you work and your task. exmple is how i comment out the SignUp(an example)
 
 function App() {
   return <div>
     
-    <MenFashion/>
-    <ProductPage/>
+    {/* <SignIn/> */}
+    {/* <SignUp/> */}
+    <Home/>
+    {/* <MenFashion/> */}
+    {/* <MenShirt/> */}
+    {/* <ProductPage/> */}
+    {/* <VendorPage/> */}
+    {/* <CartPage/> */}
+    {/* <PaymentPage/> */}
     
-    <SignIn/>
-    <SignUp/> 
+
   </div>
   
 }
@@ -30,9 +38,9 @@ export default App;
           <Route path="/signin" element={<SignIn />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/" element={<Home />} />
-          <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/profile" element={<Profile />} />
-          <Route path="/Profilesetting" element={<ProfileSetting />} />
-          <Route path="/Passwordsetting" element={<PasswordSetting />} />
+          <Route path="/menfashion" element={<MenFashion />} />
+          <Route path="/menshirt" element={<MenShirt />} />
+          <Route path="/productpage" element={<ProductPage />} />
+          <Route path="/vendorpage" element={<VendorPage />} />
         </Routes>
-      </Router> */}
+</Router> */}
