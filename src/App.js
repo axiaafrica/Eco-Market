@@ -12,6 +12,7 @@ import PaymentPage from "./pages/PaymentPage";
 
 function App() {
   return <div>
+    
     {/* <SignIn/> */}
     {/* <SignUp/> */}
     {/* <Home/> */}
