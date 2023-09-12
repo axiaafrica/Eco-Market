@@ -14,12 +14,12 @@ function App() {
     
     {/* <SignIn/> */}
     {/* <SignUp/> */}
-    <Home/>
+    {/* <Home/> */}
     {/* <MenFashion/> */}
     {/* <MenShirt/> */}
     {/* <ProductPage/> */}
     {/* <VendorPage/> */}
-    {/* <PaymentPage/> */}
+    <PaymentPage/>
     
 
   </div>

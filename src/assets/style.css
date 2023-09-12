@@ -6,7 +6,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
- 
+input, select {
+    border: 2px solid #E7E8E9;
+}
+
+.circle-checkbox {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border: 2px solid #007D6E;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 10px;
+}
+
+.circle-checkbox input[type="checkbox"] {
+    opacity: 0;
+    position: absolute;
+    cursor: pointer;
+}
+
+#Delivery {
+    border: 2px solid #E7E8E9;
+}
+
+#paypal {
+    border: 1px solid #DADADA;
+}
+
+
 /* blessing styles end */
 
 /* Doyin styles starts */
